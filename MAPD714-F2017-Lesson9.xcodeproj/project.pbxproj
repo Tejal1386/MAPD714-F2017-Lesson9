@@ -12,6 +12,10 @@
 		E482A2811FCF81D600369FDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E482A2801FCF81D600369FDF /* Assets.xcassets */; };
 		E482A2841FCF81D600369FDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E482A2821FCF81D600369FDF /* LaunchScreen.storyboard */; };
 		E482A28E1FCF882400369FDF /* FavouritesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E482A28D1FCF882400369FDF /* FavouritesList.swift */; };
+		E482A2921FCF8D9600369FDF /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E482A2911FCF8D9600369FDF /* RootViewController.swift */; };
+		E482A2941FCF9F9A00369FDF /* FontListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E482A2931FCF9F9A00369FDF /* FontListViewController.swift */; };
+		E482A2961FCFA9F300369FDF /* FontSizesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E482A2951FCFA9F300369FDF /* FontSizesViewController.swift */; };
+		E482A2981FCFAF6300369FDF /* FontInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E482A2971FCFAF6300369FDF /* FontInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		E482A2831FCF81D600369FDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E482A2851FCF81D600369FDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E482A28D1FCF882400369FDF /* FavouritesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesList.swift; sourceTree = "<group>"; };
+		E482A2911FCF8D9600369FDF /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		E482A2931FCF9F9A00369FDF /* FontListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontListViewController.swift; sourceTree = "<group>"; };
+		E482A2951FCFA9F300369FDF /* FontSizesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSizesViewController.swift; sourceTree = "<group>"; };
+		E482A2971FCFAF6300369FDF /* FontInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontInfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				E482A2821FCF81D600369FDF /* LaunchScreen.storyboard */,
 				E482A2851FCF81D600369FDF /* Info.plist */,
 				E482A28D1FCF882400369FDF /* FavouritesList.swift */,
+				E482A2911FCF8D9600369FDF /* RootViewController.swift */,
+				E482A2931FCF9F9A00369FDF /* FontListViewController.swift */,
+				E482A2951FCFA9F300369FDF /* FontSizesViewController.swift */,
+				E482A2971FCFAF6300369FDF /* FontInfoViewController.swift */,
 			);
 			path = "MAPD714-F2017-Lesson9";
 			sourceTree = "<group>";
@@ -136,8 +148,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E482A2961FCFA9F300369FDF /* FontSizesViewController.swift in Sources */,
 				E482A27A1FCF81D600369FDF /* AppDelegate.swift in Sources */,
+				E482A2941FCF9F9A00369FDF /* FontListViewController.swift in Sources */,
+				E482A2981FCFAF6300369FDF /* FontInfoViewController.swift in Sources */,
 				E482A28E1FCF882400369FDF /* FavouritesList.swift in Sources */,
+				E482A2921FCF8D9600369FDF /* RootViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
